@@ -32,3 +32,13 @@ header:
       ko      : &KO       소개
       ko-KR   : *KO
     url: /about.html
+    
+docs-en:
+  - title: Quick Start
+    children:
+      - title: SD-WAN
+        url:    /docs/en/quick-start
+      - title: NPM
+        url:    /docs/en/quick-start
+      - title: APM
+        url:    /docs/en/quick-start        
