@@ -59,7 +59,9 @@ author:
 repository: riverbed/tech-evangelist
 repository_tree: master
 
-
+sidebar:
+  nav: docs-en
+  
 ## => Paths
 ##############################
 paths:
