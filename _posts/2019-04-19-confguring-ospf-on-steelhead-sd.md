@@ -1,6 +1,6 @@
 ---
-layout: post
-title:  "Configuring OSPF on SteelHead SD"
+title: Configuring OSPF on SteelHead SD
+tags: TeXt
 ---
 
 # Configuring OSPF on SteelHead SD
