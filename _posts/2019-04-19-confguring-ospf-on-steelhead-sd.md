@@ -1,6 +1,6 @@
 ---
 title: Configuring OSPF on SteelHead SD
-tags: TeXt
+tags: SD-WAN
 ---
 
 # Configuring OSPF on SteelHead SD
