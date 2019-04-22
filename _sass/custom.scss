@@ -11,4 +11,10 @@ h2:active {
 ul.toc .toc-h1.active a, ul.toc .toc-h1.active a:link, ul.toc .toc-h1.active a:visited, ul.toc .toc-h2.active a, ul.toc .toc-h2.active a:link, ul.toc .toc-h2.active a:visited, ul.toc .toc-h3.active a, ul.toc .toc-h3.active a:link, ul.toc .toc-h3.active a:visited, ul.toc .toc-h4.active a, ul.toc .toc-h4.active a:link, ul.toc .toc-h4.active a:visited, ul.toc .toc-h5.active a, ul.toc .toc-h5.active a:link, ul.toc .toc-h5.active a:visited, ul.toc .toc-h6.active a, ul.toc .toc-h6.active a:link, ul.toc .toc-h6.active a:visited {
     color: #ed7633;
 }
+.header__brand>svg {
+    width: 5.92rem;
+    height: 5.92rem;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
 /* end custom scss snippet */
