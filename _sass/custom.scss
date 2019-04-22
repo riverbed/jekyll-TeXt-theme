@@ -5,4 +5,7 @@ a:link {
 h2:active {
   color: #ed7633;
 }
+ul.toc .toc-h1.active a, ul.toc .toc-h1.active a:link, ul.toc .toc-h1.active a:visited, ul.toc .toc-h2.active a, ul.toc .toc-h2.active a:link, ul.toc .toc-h2.active a:visited, ul.toc .toc-h3.active a, ul.toc .toc-h3.active a:link, ul.toc .toc-h3.active a:visited, ul.toc .toc-h4.active a, ul.toc .toc-h4.active a:link, ul.toc .toc-h4.active a:visited, ul.toc .toc-h5.active a, ul.toc .toc-h5.active a:link, ul.toc .toc-h5.active a:visited, ul.toc .toc-h6.active a, ul.toc .toc-h6.active a:link, ul.toc .toc-h6.active a:visited {
+    color: #ed7633;
+}
 /* end custom scss snippet */
