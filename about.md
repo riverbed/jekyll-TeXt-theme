@@ -1,7 +1,7 @@
 ---
 layout: article
 titles:
-  en      : &EN       About
+  en      : &EN       About us
   en-GB   : *EN
   en-US   : *EN
   en-CA   : *EN
@@ -18,7 +18,7 @@ titles:
 key: page-about
 ---
 
-Meet the team of Technical Evangelist'
+Here there!  We are the [Riverbed](https://www.riverbed.com) Technical Evangelist team and this is our home on the web to share geeky tech bits with you.  Allow us to introduce the team...
 
 ## Romain Jourdan
 
