@@ -10,7 +10,8 @@ Hi there.  I'm Brandon Carroll, one of the Technical Evangelists at Riverbed.  I
 
 One of the things that I find interesting in the world of SD-WAN is that not everything that you can do on a router is required.  Sure, we know all the knobs, but SD-WAN is redefining how we do things and much of what would require tuning should, in theory, be handled by the controller.  So your feature set for protocols like OSPF _should_ be limited if you compare SD-WAN capabilities against a traditional router.  __This is _ok_!__
 
-> We need to get away from thinking that an SD-WAN solution should function the same way as a traditional router.  If that were the case we would make no progress. Change is inevitable and we must embrace it.
+We need to get away from thinking that an SD-WAN solution should function the same way as a traditional router.  If that were the case we would make no progress. Change is inevitable and we must embrace it.
+{:.info}
 
 So let me just share a few of the things that are supported on the Riverbed SD-WAN SteelHead SD gateways.
 
@@ -82,8 +83,8 @@ And the **DCONLY** prefix list is allowing one prefix, __172.17.0.0/24__ to be r
 
 ![prefix-list](http://drop.rvbd-te.com/2019-04-22_23-56-50.png)
 
-Info Text Top.
-{:.info}
+Remember that BGP routing tables can be very large and it is not recommended to redistribute full BGP routing tables into OSPF.
+{:.warning}
 
 
 
