@@ -86,7 +86,41 @@ And the **DCONLY** prefix list is allowing one prefix, __172.17.0.0/24__ to be r
 Remember that BGP routing tables can be very large and it is not recommended to redistribute full BGP routing tables into OSPF.
 {:.warning}
 
+Let's jump away from SCM to see what our router sees.  I'm using a Vyos router and on it I'll issue the __show ip ospf database__ command to see if we are getting the redistributed route.  And as we can see below, the route is coming in as an E1, which is what we expect.
 
+```
+vyos@Boston-RTR:~$ sh ip ospf database 
+
+       OSPF Router with ID (172.30.3.1)
+
+                Router Link States (Area 0.0.0.1)
+
+Link ID         ADV Router      Age  Seq#       CkSum  Link count
+172.16.1.1      172.16.1.1       977 0x80000106 0xea3b 1
+172.30.3.1      172.30.3.1      1575 0x80000116 0x1d4e 4
+
+                Net Link States (Area 0.0.0.1)
+
+Link ID         ADV Router      Age  Seq#       CkSum
+172.16.1.2      172.30.3.1      1575 0x8000030c 0xf53a
+
+                AS External Link States
+
+Link ID         ADV Router      Age  Seq#       CkSum  Route
+172.17.0.0      172.16.1.1       975 0x80000001 0x565f E1 172.17.0.0/24 [0xffff]
+
+vyos@Boston-RTR:~$ 
+```
+
+## Take Aways
+
+This is just a small example of how to configure complex routing features easily with Riverbed's SteelConnect Manager.  I'm not trying to say that this method makes the complexity go away, you still need to understand what OSPF needs to function properly, however the presentation of the configuration in the SCM GUI makes it easy to setup and when you do this at scale it's a much better option that SSHing into a bunch of devices and configuring them independently.
+
+That's it for this article.  Stay tuned for more technical articles that highlight the technical features of Riverbed solutions.
+
+If you'd like to learn more about Riverbed SD-WAN please visit [Riverbed.com](https://www.riverbed.com/solutions/sd-wan.html) where you'll find webinars, analyst reports, customer stories, and more.  There you'll have an option to request a __Free Trial__ in the upper-right portion of the web page.
+
+Happy Labbing Everyone!
 
 
 
