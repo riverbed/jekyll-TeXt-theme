@@ -18,7 +18,7 @@ titles:
 key: page-about
 ---
 
-# Meet the Team!
+Meet the team of Technical Evangelist'
 
 ## Romain Jourdan
 
