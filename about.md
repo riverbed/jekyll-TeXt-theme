@@ -17,6 +17,9 @@ titles:
   ko-KR   : *KO
 key: page-about
 ---
+
+# Meet the Team!
+
 ## Romain Jourdan
 
 ![Romain](http://drop.rvbd-te.com/Romain.png)
