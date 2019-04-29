@@ -20,7 +20,7 @@ Here's what we will cover if you want to jump to a specific section:
 - [SteelConnect Beginner - Sandbox Full Mesh](#steelconnect-beginner---sandbox-full-mesh)
 	- [The Customer](#the-customer)
 	- [Getting Started](#getting-started)
-	- [Organizations)(#organizations)
+	- [Organizations](#organizations)
 	- [Sites](#sites)
 	- [WANs](#wans)
 	- [Uplinks](#uplinks)
