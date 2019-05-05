@@ -1,7 +1,7 @@
 At times the situation may arise where there are two SD-WAN gateways connected to two separate WANs.  In cases like this you can use the *alternate hub* configuration to allow overlay routes from each site to be shared via a hub site that is connected to both WANs.  The network topology would resemble the following:
 
 
-
+![topo](http://drop.rvbd-te.com/Photo-2019-05-05-07-34.PNG)
 
 ## Alternate Hub
 
