@@ -1,9 +1,16 @@
+---
+title: Configuring Alternate Hub
+tags: SD-WAN
+author: Brandon Carroll
+---
+
+
 At times the situation may arise where there are two SD-WAN gateways connected to two separate WANs.  In cases like this you can use the *alternate hub* configuration to allow overlay routes from each site to be shared via a hub site that is connected to both WANs.  The network topology would resemble the following:
 
 
 ![topo](http://drop.rvbd-te.com/Photo-2019-05-05-07-34.PNG)
 
-## Alternate Hub
+## Prep Work
 
 In this next section we will configure the Alternate Hub Feature.  The adjustment to the network will resemble the topology show above.  You wont necessarily need to make this adjustment every time, but since my network is configured as a full mesh network I'll tweak it so that two of my sites are on separate WANs, one on MPLS only, and one on Internet only.
 
@@ -39,6 +46,8 @@ Important:  At this point, wait for the gateway to be up-to-date.
 Now notice Site B.  Site B only has prefixes from the Data Center as well.  
 
 ![SiteA](http://drop.rvbd-te.com/Photo-2019-05-05-22-57.jpg)
+
+## Configuring Alternate Hub
 
 Each of these sites only has the prefix from the Data Center.  We conformed this above.  Our goal is to use the Data Center as a hub, since it knows the prefixes from both Site A and Site B.  By doing so, we can get an internet-only site to talk to an MPLS-only site as long as both of these sites are running SD-WAN gateways.  Let's enable the alternate hub feature on both Site A and Site B.  In both cases we will define the Data Center as the alternate hub.
 
